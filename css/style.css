@@ -194,7 +194,7 @@ body {
 
 .section-six .section-container  {
   width: 65%;
-  height: 405px;
+  height: 415px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -220,4 +220,40 @@ body {
   width: 25%;
   height: 100%;
   border: 2px dotted white;
+}
+
+/* Stile Footer */
+
+footer {
+  border: 1px solid white;
+}
+
+.footer-background {
+  background-color: rgb(37, 37, 44);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-container {
+  background-color: aquamarine;
+  height: 50px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container div {
+  border: 1px dotted black;
+}
+
+.footer-container-left, .footer-container-right {
+  padding: 5px ;
+  background-color: pink;
+} 
+
+.footer-container-right {
+  text-align: end;
 }
