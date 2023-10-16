@@ -44,7 +44,7 @@ body {
 
 .section-one > .section-background {
   background-color: blue;
-  height: 350px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ body {
 .section-one .section-container {
   background-color: palevioletred;
   width: 50%;
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +64,7 @@ body {
 
 .section-two > .section-background  {
   background-color: white;
-  height: 350px;
+  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,22 +72,56 @@ body {
 
 .section-two .section-container  {
   background-color: rgb(48, 170, 246);
-  width: 50%;
-  height: 300px;
+  width: 65%;
+  height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 2px dotted black;
 }
 
-.section-container-left {
+.section-two .section-container-left {
   background-color: rgb(48, 170, 246);
   width: 60%;
   height: 100%;
   border: 2px dotted black;
 }
 
-.section-container-right {
+.section-two .section-container-right {
+  background-color: palevioletred;
+  width: 40%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
+/* Stile Section 3 */
+
+.section-three > .section-background  {
+  background-color: lightgray;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-three .section-container  {
+  background-color: rgb(48, 170, 246);
+  width: 65%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+.section-three .section-container-right {
+  background-color: rgb(48, 170, 246);
+  width: 60%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
+.section-three .section-container-left {
   background-color: palevioletred;
   width: 40%;
   height: 100%;
