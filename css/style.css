@@ -42,7 +42,7 @@ body {
 
 /* Stile Section 1 */
 
-.section-background {
+.section-one > .section-background {
   background-color: blue;
   height: 350px;
   display: flex;
@@ -50,12 +50,46 @@ body {
   align-items: center;
 }
 
-.section-container {
+.section-one .section-container {
   background-color: palevioletred;
   width: 50%;
   height: 300px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px dotted black;
+}
+
+/* Stile Section 2 */
+
+.section-two > .section-background  {
+  background-color: white;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-two .section-container  {
+  background-color: rgb(48, 170, 246);
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+.section-container-left {
+  background-color: rgb(48, 170, 246);
+  width: 60%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
+.section-container-right {
+  background-color: palevioletred;
+  width: 40%;
+  height: 100%;
   border: 2px dotted black;
 }
