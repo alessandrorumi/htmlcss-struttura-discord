@@ -161,3 +161,23 @@ body {
   height: 100%;
   border: 2px dotted black;
 }
+
+/* Stile Section 5 */
+
+.section-five > .section-background {
+  background-color: lightgray;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-five .section-container {
+  background-color: green;
+  width: 65%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
+}
