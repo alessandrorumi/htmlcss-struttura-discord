@@ -127,3 +127,37 @@ body {
   height: 100%;
   border: 2px dotted black;
 }
+
+/* Stile Section 4 */
+
+.section-four > .section-background  {
+  background-color: white;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-four .section-container  {
+  background-color: rgb(48, 170, 246);
+  width: 65%;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+.section-four .section-container-left {
+  background-color: rgb(48, 170, 246);
+  width: 60%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
+.section-four .section-container-right {
+  background-color: palevioletred;
+  width: 40%;
+  height: 100%;
+  border: 2px dotted black;
+}
