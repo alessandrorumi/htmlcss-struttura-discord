@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-background {
+  background-color: lightblue;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  background-color: orange;
+  height: 30px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
