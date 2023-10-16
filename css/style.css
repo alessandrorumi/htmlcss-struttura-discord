@@ -181,3 +181,43 @@ body {
   align-items: center;
   border: 2px dotted black;
 }
+
+/* Stile Section 6 */
+
+.section-six > .section-background  {
+  background-color: rgb(37, 37, 44);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.section-six .section-container  {
+  width: 65%;
+  height: 405px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
+}
+
+.section-six .section-container-left {
+  background-color: palevioletred;
+  width: 20%;
+  height: 100%;
+  border: 2px dotted black;
+}
+
+.section-six .section-container-right {
+  width: 80%;
+  height: 100%;
+  border: 2px dotted black;
+  display: flex;
+}
+
+.elements-right {
+  background-color: lightseagreen;
+  width: 25%;
+  height: 100%;
+  border: 2px dotted white;
+}
