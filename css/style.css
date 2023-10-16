@@ -4,6 +4,8 @@ body {
   box-sizing: border-box;
 }
 
+/* Stile Header */
+
 .header-background {
   background-color: lightblue;
   height: 50px;
@@ -14,9 +16,46 @@ body {
 
 .header-container {
   background-color: orange;
-  height: 30px;
-  width: 70%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px dotted black;
+}
+
+.header-container div {
+  border: 1px dotted black;
+}
+
+.header-container-left, .header-container-right {
+  width: 20%;
+} 
+
+.header-container-middle {
+  text-align: center;
+  width: 60%;
+}
+
+.header-container-right {
+  text-align: end;
+}
+
+/* Stile Section 1 */
+
+.section-background {
+  background-color: blue;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container {
+  background-color: palevioletred;
+  width: 50%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted black;
 }
