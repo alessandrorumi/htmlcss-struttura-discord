@@ -183,9 +183,9 @@
   border: 2px dotted black;
 }
 
-/* Stile Section 6 */
+/* Stile Footer Top*/
 
-.section-six > .section-background  {
+.footer-top-background  {
   background-color: rgb(37, 37, 44);
   height: 450px;
   display: flex;
@@ -193,7 +193,7 @@
   padding-top: 5px;
 }
 
-.section-six .section-container  {
+.footer-top-container  {
   width: 65%;
   height: 415px;
   display: flex;
@@ -202,14 +202,14 @@
   border: 2px dotted black;
 }
 
-.section-six .section-container-left {
+.footer-top-container-left {
   background-color: palevioletred;
   width: 20%;
   height: 100%;
   border: 2px dotted black;
 }
 
-.section-six .section-container-right {
+.footer-top-container-right {
   width: 80%;
   height: 100%;
   border: 2px dotted black;
@@ -223,13 +223,13 @@
   border: 2px dotted white;
 }
 
-/* Stile Footer */
+/* Stile Footer Bottom*/
 
-footer {
-  border: 1px solid white;
+hr {
+  color: white;
 }
 
-.footer-background {
+.footer-bottom-background {
   background-color: rgb(37, 37, 44);
   height: 80px;
   display: flex;
@@ -237,7 +237,7 @@ footer {
   align-items: flex-end;
 }
 
-.footer-container {
+.footer-bottom-container {
   background-color: aquamarine;
   height: 50px;
   width: 65%;
@@ -246,15 +246,15 @@ footer {
   align-items: center;
 }
 
-.footer-container div {
+.footer-bottom-container div {
   border: 1px dotted black;
 }
 
-.footer-container-left, .footer-container-right {
+.footer-bottom-container-left, .footer-bottom-container-right {
   padding: 5px ;
   background-color: pink;
 } 
 
-.footer-container-right {
+.footer-bottom-container-right {
   text-align: end;
 }
